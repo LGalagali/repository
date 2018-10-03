@@ -1,0 +1,8 @@
+---
+- hosts: apache
+  roles:
+    - python
+    - mysql_db
+    - flask_web
+  environment:
+    http_proxy: http://proxy.example.com:8080

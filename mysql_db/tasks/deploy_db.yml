@@ -1,0 +1,6 @@
+-name: Install dependencies
+-name: Install MySQL database
+-name: Start Mysql service
+-name: create Application Database
+-name: create Appliaction DB user
+
